@@ -1,0 +1,10 @@
+{
+  "name": "@0xfinu/finu-circle-wallet",
+  "version": "0.1.0",
+  "private": true,
+  "description": "finu.muse Circle agent-wallet claim script \u2014 draws 20 test USDC from the Circle Arc testnet faucet straight to the burner wallet. Arc testnet only.",
+  "license": "MIT",
+  "scripts": {
+    "claim": "bash arc-claim-to-burner.sh"
+  }
+}
